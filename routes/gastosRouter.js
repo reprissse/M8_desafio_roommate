@@ -4,9 +4,9 @@ import { getGastos, addGastos, deleteGastos } from "../controllers/gastosControl
 
 router.get('/gastos', getGastos);
 
-router.post('/gastos', addGastos);
+router.post('/gasto', addGastos);
 
-router.delete('/gastos', deleteGastos);
+router.delete('/gasto', deleteGastos);
 
 
 
